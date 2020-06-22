@@ -3,3 +3,4 @@ __pycache__
 graph_mse.py
 plot_sample.py
 *.csv
+.DS_Store
