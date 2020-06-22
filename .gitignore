@@ -1,0 +1,5 @@
+__pycache__
+/csv
+graph_mse.py
+plot_sample.py
+*.csv
