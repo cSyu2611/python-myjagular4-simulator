@@ -33,6 +33,9 @@ class MyJagular4:
         # メダル数の遷移を保存するリスト
         self.__medal_list = []
 
+    def __str__(self):
+        return "マイジャグラー4の設定{}シミュレータ".format(self.__config_num)
+
     # 役のフラグを確率に沿ってランダム選択
     def flag_selecter(self):
         flag = np.random.choice(
